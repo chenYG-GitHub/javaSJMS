@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+	<FactoryMethod>creation.factorymethod.FileFactory</FactoryMethod>
+	<AbstractFactory>creation.abstractfactory.SummerFactory</AbstractFactory>
+	<Builder>creation.build.AngelBuilder</Builder>
+	<Adapter>structural.adapter.PoliceCarAdapter</Adapter>
+	<BridgeImage>structural.bridge.GIFImage</BridgeImage>
+	<BridgeImp>structural.bridge.LinuxImp</BridgeImp>
+
+
+	<Vistor></Vistor>
+	<Strategy>behavior.strategy.StudentDiscount</Strategy>
+	<Command>behavior.command.HelpCommand</Command>
+	<SimpleProxy>structure.proxy.simple.ProxySearch</SimpleProxy>
+</config>
